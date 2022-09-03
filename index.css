@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    display: inline-block;
+    font-size: 40px;
+}
+.top{
+    flex:auto;
+    text-align: center;
+}
+
+.the{
+
+    color:rgba(42, 252, 8, 1)
+
+
+}
+.tag{
+    color: crimson;
+
+
+}
+.tech{
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(193, 193, 193, 0.87);
+}
+.end{
+    color: rgba(13, 70, 218, 1);
+}
+body{
+    background-color:   rgba(37, 37, 37, 1);
+}
+
+.desc{
+
+    text-align: center;
+    color: aliceblue;
+
+}
+.dropdown{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+#language{
+    padding:5px 10px ;
+    border-radius: 10px;
+    color:rgba(255, 184, 0, 1);
+    background-color: rgba(63, 63, 63, 1);
+    outline: none;
+    border: none;
+
+}
+
+.fulleditor{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.editor{
+
+    flex:40%;
+
+    margin-top: 10px;
+    margin-left: 28px;
+    height:630px;
+    background-color: rgba(25, 25, 25, 1);
+    width: 750px;
+    border-radius: 10px;
+}
+
+
+.no{
+
+    flex:20%;
+    border-radius: 6px;
+    height: 100%;
+    width:30px;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+
+
+.playarea{
+    flex:15%;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-left: 15px;
+
+    height: 250px;
+    max-width: 35px;
+    background-color: rgba(79, 79, 79, 1);
+}
+
+.terminal{
+
+    flex:40%;
+    width: 550px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 630px;
+    padding-left: 600px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 800px) {
+    .editor, .playarea, .terminal {
+        flex: 100%;
+    }
+}
+.playbutton {
+    padding-top: 35px;
+    background-color: rgba( 0,0,0,0);
+    border: none;
+}
+.playpng{
+    height: 25px;
+    width: 25px;
+}
+
+.stopbutton {
+    padding-top: 50px;
+    background-color: rgba( 0,0,0,0);
+    border: none;
+}
+.stoppng{
+    height: 25px;
+    width: 25px;
+}
+
+.downloadbutton {
+    padding-top: 40px;
+    background-color: rgba( 0,0,0,0);
+    border: none;
+}
+.download{
+    height: 25px;
+    width: 25px;
+}
