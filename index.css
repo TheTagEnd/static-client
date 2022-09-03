@@ -32,7 +32,7 @@ body{
     color: rgba(193, 193, 193, 0.87);
 }
 .end{
-    color: rgba(13, 70, 218, 1);
+    color: #008BFF;
 }
 body{
     background-color:   rgba(37, 37, 37, 1);
@@ -66,7 +66,7 @@ body{
 
 }
 .editor{
-
+    display: flex;
     flex:40%;
 
     margin-top: 10px;
@@ -75,12 +75,12 @@ body{
     background-color: rgba(25, 25, 25, 1);
     width: 750px;
     border-radius: 10px;
+
 }
 
 
 .no{
-
-    flex:20%;
+    display: flex;
     border-radius: 6px;
     height: 100%;
     width:30px;
@@ -90,12 +90,13 @@ body{
 
 
 .playarea{
-    flex:15%;
+
+    flex:auto;
     border-radius: 10px;
     margin-top: 180px;
     margin-left: 15px;
 
-    height: 250px;
+    height: 200px;
     max-width: 35px;
     background-color: rgba(79, 79, 79, 1);
 }
@@ -113,37 +114,72 @@ body{
     background-color: rgba(0, 0, 0, 1);
 }
 
-@media (max-width: 800px) {
-    .editor, .playarea, .terminal {
+@media  (max-width: 800px) {
+    .editor, .playarea , .terminal {
         flex: 100%;
     }
 }
+
+
+.textarea{
+    height:630px;
+    background-color: rgba(25, 25, 25, 1);
+    width: 750px;
+    border: none;
+    outline: none;
+    color: yellow;
+    box-sizing: border-box;
+    padding:10px;
+    word-wrap: break-word;
+    overflow-x:hidden ;
+}
+
 .playbutton {
-    padding-top: 35px;
+
+    outline: none;
+    padding-top:15px;
     background-color: rgba( 0,0,0,0);
     border: none;
 }
 .playpng{
+
     height: 25px;
     width: 25px;
 }
 
+
 .stopbutton {
-    padding-top: 50px;
+    outline: none;
+    padding-top: 30px;
     background-color: rgba( 0,0,0,0);
     border: none;
+
 }
 .stoppng{
+
     height: 25px;
     width: 25px;
 }
 
 .downloadbutton {
-    padding-top: 40px;
+
+    outline: none;
+    padding-top: 30px;
     background-color: rgba( 0,0,0,0);
     border: none;
 }
 .download{
+
+    margin-bottom: 13px;
     height: 25px;
     width: 25px;
 }
+.playarea{
+
+    display: grid;}
+
+
+
+
+
+
