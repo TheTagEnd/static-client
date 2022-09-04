@@ -32,7 +32,6 @@
             <option value="python">Python</option>
             <option value="C++">C++</option>
             <option value="java">Java</option>
-
         </select>
     </div>
     <div class="fulleditor">
@@ -43,13 +42,14 @@
 
 
             </div>
-            <div contentEditable id="codeArea" class="textarea">
-            </div>
+            <code contenteditable="true" id="codeArea" class="textarea">
+                print("Hello World in Python")
+            </code>
 
         </div>
 
         <div class="playarea">
-            <button class="playbutton">
+            <button class="playbutton" id="runButton">
                 <img class="playpng" src="./images/play.png" alt="Run">
             </button>
 
@@ -57,22 +57,20 @@
                 <img class="stoppng" src="./images/stop.png" alt="Stop">
             </button>
 
-            <button class="downloadbutton">
+            <button class="downloadbutton" id="dlButton">
                 <img class="download" src="./images/download.png" alt="Download">
             </button>
         </div>
 
-        <div class="terminal">
+        <div class="terminal" id="terminal">
 
 
         </div>
     </div>
 
 
-
-
 </div>
-
+<script defer src="main.js"></script>
 
 </body>
 </html>

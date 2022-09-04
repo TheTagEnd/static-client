@@ -1,7 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+@font-face {
+    font-family: 'Hack Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hack Regular'), url('font/Hack-Regular.woff') format('woff');
+}
 
+
+@font-face {
+    font-family: 'Hack Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hack Italic'), url('font/Hack-Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Hack Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hack Bold'), url('font/Hack-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Hack Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hack Bold Italic'), url('font/Hack-BoldItalic.woff') format('woff');
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -110,7 +139,9 @@ body{
     border-radius: 10px;
     margin-top: 10px;
     height: 630px;
-    padding-left: 600px;
+    padding: 20px;
+    font-family: "Hack Bold","monospace";
+    color: white;
     background-color: rgba(0, 0, 0, 1);
 }
 
