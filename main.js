@@ -5,8 +5,8 @@ const run = async () => {
     if (language === "C++"){
         language = "cpp";
     }
-    const encoded = btoa(code)
-    const res = await fetch('http://api.thetagend.tech:3000',{
+    // const encoded = btoa(code)
+    const res = await fetch('https://api.thetagend.tech',{
         method: "POST",
         headers : {
             'Accept':'application/json',
@@ -14,7 +14,7 @@ const run = async () => {
         },
         body: JSON.stringify({
             language: language,
-            code: encoded
+            code: code
         })
     })
     const output = await res.json()
